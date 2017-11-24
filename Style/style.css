@@ -1,0 +1,24 @@
+﻿body {
+    margin:auto;
+    text-align:center;
+    width:100%;
+}
+
+.container {
+  
+}
+
+#car {
+    left:0;
+    position: relative;
+}
+
+#myCanvas {
+    margin-left:900px;
+    position:relative;
+    margin-top:5px;
+}
+
+#myRange {
+    
+}
