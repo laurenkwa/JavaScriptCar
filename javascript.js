@@ -288,7 +288,7 @@ function car() {
             contextShapes.stroke();
 
             contextShapes.beginPath();
-            contextShapes.moveTo(250,250);
+            contextShapes.moveTo(250,249);
             contextShapes.lineTo(450,050);
             contextShapes.lineTo(750,050);
             contextShapes.lineTo(550,250);
