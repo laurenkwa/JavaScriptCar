@@ -1,6 +1,6 @@
 var shapes = document.getElementById("car");
 var contextShapes = shapes.getContext("2d");
-var basexStart = 850;
+var basexStart = 816;
 var basexEnd = 900;
 var baseyStart= 100;
 var baseyEnd = 200;
@@ -37,7 +37,7 @@ var rangeValue = function(){
 elem.addEventListener("input", rangeValue);
 
 function car() {
-            contextShapes.rect(800,50,150,200); //white rectangle for smoke
+            contextShapes.rect(800,50,400,200); //white rectangle for smoke
             contextShapes.beginPath();
             contextShapes.strokeStyle = "white";
             contextShapes.stroke();
@@ -298,39 +298,24 @@ function car() {
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
-            contextShapes.moveTo(700,60);
-            contextShapes.lineTo(680,60);
-            contextShapes.lineTo(680,30);
-            contextShapes.lineTo(700,30);
+            contextShapes.beginPath(); //exhaust pipe
+            contextShapes.moveTo(750,250);
+            contextShapes.lineTo(780,220);
+            contextShapes.lineTo(770,210);
+            contextShapes.lineTo(750,230);
             contextShapes.fillStyle = "grey";
             contextShapes.lineWidth = 2;
             contextShapes.fill();
             contextShapes.closePath();
             contextShapes.stroke();
-
-            contextShapes.beginPath();
-            contextShapes.moveTo(700,60);
-            contextShapes.lineTo(700,30);
-            contextShapes.lineTo(712,18);
-            contextShapes.lineTo(712,48);
-            contextShapes.fillStyle = "grey";
+    
+            contextShapes.beginPath(); //exhause pipe
+            contextShapes.arc(776,213.5,7,10,Math.PI/3.4);
             contextShapes.lineWidth = 2;
+            contextShapes.strokeStyle="black";
             contextShapes.fill();
-            contextShapes.closePath();
             contextShapes.stroke();
-
-            contextShapes.beginPath();
-            contextShapes.moveTo(700,30);
-            contextShapes.lineTo(712,18);
-            contextShapes.lineTo(692,18);
-            contextShapes.lineTo(680,30);
-            contextShapes.fillStyle = "grey";
-            contextShapes.lineWidth = 2;
-            contextShapes.fill();
-            contextShapes.closePath();
-            contextShapes.stroke();
-
+            
             contextShapes.beginPath();
             contextShapes.moveTo(450,150);
             contextShapes.lineTo(550,150);
@@ -380,10 +365,10 @@ function car() {
          
 }
 
-function draw() {
+function draw() { // draw random smoke shape
         shapes = document.getElementById("car");
         contextShapes = shapes.getContext("2d");
-        contextShapes.clearRect(800,50,150,200);
+        contextShapes.clearRect(785,50,300,200);
          for (var i = 0; i <30; i++) {
         
                 contextShapes.beginPath();
