@@ -1,15 +1,19 @@
 var shapes = document.getElementById("car");
 var contextShapes = shapes.getContext("2d");
-var basexStart = 816;
+
+//smoke dimensions
+var basexStart = 816; 
 var basexEnd = 900;
 var baseyStart= 100;
 var baseyEnd = 200;
+
 var increment=5;
 var currentInterval;
 var elem = document.querySelector('input[type="range"]'); 
 var timer = null;
 
-var rangeValue = function(){
+var rangeValue = function(){ //clears interval as setsInterval according to input range value
+    
     clearInterval(timer);
     var delay = elem.value;
 
@@ -36,7 +40,7 @@ var rangeValue = function(){
 
 elem.addEventListener("input", rangeValue);
 
-function car() {
+function car() { //draws the car onto html webpage
             contextShapes.rect(800,50,400,200); //white rectangle for smoke
             contextShapes.beginPath();
             contextShapes.strokeStyle = "white";
@@ -497,9 +501,17 @@ function car() {
             contextShapes.fillStyle = "rgba(0,0,0,1)";
             contextShapes.fill();
             contextShapes.stroke();
+    
+            contextShapes.beginPath();
+            contextShapes.fillStyle = "black";
+            contextShapes.arc(290,450,10, 6.3, Math.PI);
+            contextShapes.fill();
+    
+            
 
-            timer = setInterval(draw, 3000);
-            draw();
+            timer = setInterval(draw, 3000); //sets interval of smoke upon loading of webpage
+    
+            draw(); //draws random smoke
            
          
 }
@@ -517,7 +529,7 @@ function draw() { // draw random smoke shape
         
             }
     
-            for (var i = 0; i < 20; i++) {
+            for (var i = 0; i < 30; i++) {
         
                 contextShapes.beginPath();
                 contextShapes.fillStyle = "rgb(128,128,128,0.2)";
@@ -527,20 +539,20 @@ function draw() { // draw random smoke shape
               }
      }
 
-function getRandomx() {
+function getRandomx() { //uses getRandomInt function as x coordinate of smoke
     var randomIntx = getRandomInt(basexStart, basexEnd);
     
     return randomIntx; 
     
 }
 
-function getRandomy() {
+function getRandomy() { //uses getRandomInt function as y coordinate of smoke
     var randomInty = getRandomInt(baseyStart, baseyEnd);
     
     return randomInty; 
     
 }
 
-function getRandomInt(min, max) {
+function getRandomInt(min, max) { //gets a random integer in a range
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
