@@ -47,7 +47,7 @@ function car() { //draws the car onto html webpage
             contextShapes.stroke();
             contextShapes.closePath();
 
-            contextShapes.strokeStyle = "black";
+            contextShapes.strokeStyle = "black"; //front face of the car 
             contextShapes.moveTo(250,450);
             contextShapes.lineTo(550,450);
             contextShapes.lineTo(550,250);
@@ -58,7 +58,7 @@ function car() { //draws the car onto html webpage
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //front left glass
             contextShapes.moveTo(255,345);
             contextShapes.lineTo(395,345);
             contextShapes.lineTo(395,255);
@@ -69,7 +69,7 @@ function car() { //draws the car onto html webpage
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //front reight glass
             contextShapes.moveTo(405,345);
             contextShapes.lineTo(545,345);
             contextShapes.lineTo(545,255);
@@ -80,7 +80,7 @@ function car() { //draws the car onto html webpage
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //top of the car
             contextShapes.moveTo(250,250);
             contextShapes.lineTo(450,050);
             contextShapes.lineTo(750,050);
@@ -91,7 +91,7 @@ function car() { //draws the car onto html webpage
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //right side of the car
             contextShapes.moveTo(550,250);
             contextShapes.lineTo(550,450);
             contextShapes.lineTo(750,250);
@@ -102,7 +102,7 @@ function car() { //draws the car onto html webpage
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //right glass1
             contextShapes.moveTo(555,340);
             contextShapes.lineTo(595,300);
             contextShapes.lineTo(595,208);
@@ -113,7 +113,7 @@ function car() { //draws the car onto html webpage
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //right glass2
             contextShapes.moveTo(605,290);
             contextShapes.lineTo(645,250);
             contextShapes.lineTo(645,156);
@@ -124,7 +124,7 @@ function car() { //draws the car onto html webpage
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //right glass3
             contextShapes.moveTo(655,240);
             contextShapes.lineTo(695,200);
             contextShapes.lineTo(695,104);
@@ -135,7 +135,7 @@ function car() { //draws the car onto html webpage
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //right glass4
             contextShapes.moveTo(705,190);
             contextShapes.lineTo(745,150);
             contextShapes.lineTo(745,52);
@@ -146,77 +146,77 @@ function car() { //draws the car onto html webpage
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //front window edge1
             contextShapes.moveTo(250,350);
             contextShapes.lineTo(550,350);
             contextShapes.lineWidth = 3;
             contextShapes.closePath();
             contextShapes.stroke();
             
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //front window edge2
             contextShapes.moveTo(400,350);
             contextShapes.lineTo(400,250);
             contextShapes.lineWidth = 3;
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //right window edge1
             contextShapes.moveTo(550,350);
             contextShapes.lineTo(750,150);
             contextShapes.lineWidth = 3;
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //right window edge2
             contextShapes.moveTo(650,250);
             contextShapes.lineTo(650,150);
             contextShapes.lineWidth = 3;
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //right window edge3
             contextShapes.moveTo(600,300);
             contextShapes.lineTo(600,200);
             contextShapes.lineWidth = 3;
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //right window edge4
             contextShapes.moveTo(700,200);
             contextShapes.lineTo(700,100);
             contextShapes.lineWidth = 3;
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //left windshield wiper1
             contextShapes.moveTo(390,340);
             contextShapes.lineTo(390,260);
             contextShapes.lineWidth = 3;
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //left windshield wiper2
             contextShapes.moveTo(390,300);
             contextShapes.lineTo(370,350);
             contextShapes.lineWidth = 3;
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //right windshield wiper1
             contextShapes.moveTo(410,340);
             contextShapes.lineTo(410,260);
             contextShapes.lineWidth = 3;
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //right windshield wiper2
             contextShapes.moveTo(410,300);
             contextShapes.lineTo(430,350);
             contextShapes.lineWidth = 3;
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //air inlet
             contextShapes.moveTo(320,440);
             contextShapes.lineTo(480,440);
             contextShapes.lineTo(480,360);
@@ -227,79 +227,69 @@ function car() { //draws the car onto html webpage
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //air inlet net1
             contextShapes.moveTo(320,430);
             contextShapes.lineTo(480,430);
             contextShapes.lineWidth = 3;
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //air inlet net2
             contextShapes.moveTo(320,420);
             contextShapes.lineTo(480,420);
             contextShapes.lineWidth = 3;
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //air inlet net3
             contextShapes.moveTo(320,410);
             contextShapes.lineTo(480,410);
             contextShapes.lineWidth = 3;
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //air inlet net4
             contextShapes.moveTo(320,400);
             contextShapes.lineTo(480,400);
             contextShapes.lineWidth = 3;
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //air inlet net5
             contextShapes.moveTo(320,390);
             contextShapes.lineTo(480,390);
             contextShapes.lineWidth = 3;
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //air inlet net6
             contextShapes.moveTo(320,380);
             contextShapes.lineTo(480,380);
             contextShapes.lineWidth = 3;
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //air inlet net7
             contextShapes.moveTo(320,370);
             contextShapes.lineTo(480,370);
             contextShapes.lineWidth = 3;
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //left yellow light
             contextShapes.arc(300, 400, 20, 0, Math.PI * 2, false);
             contextShapes.closePath();
             contextShapes.fillStyle = "yellow";
             contextShapes.fill();
             contextShapes.lineWidth = 3;
             contextShapes.stroke();
-            contextShapes.beginPath();
+            
+            contextShapes.beginPath(); //right yellow light
             contextShapes.arc(500, 400, 20, 0, Math.PI * 2, false);
             contextShapes.closePath();
             contextShapes.fillStyle = "yellow";
             contextShapes.fill();
             contextShapes.lineWidth = 3;
-            contextShapes.stroke();
-
-            contextShapes.beginPath();
-            contextShapes.moveTo(250,249);
-            contextShapes.lineTo(450,050);
-            contextShapes.lineTo(750,050);
-            contextShapes.lineTo(550,250);
-            contextShapes.fillStyle = "silver";
-            contextShapes.lineWidth = 3;
-            contextShapes.fill();
-            contextShapes.closePath();
             contextShapes.stroke();
 
             contextShapes.beginPath(); //exhaust pipe
@@ -320,7 +310,7 @@ function car() { //draws the car onto html webpage
             contextShapes.fill();
             contextShapes.stroke();
             
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //top window
             contextShapes.moveTo(450,150);
             contextShapes.lineTo(550,150);
             contextShapes.lineTo(580,120);
@@ -331,7 +321,7 @@ function car() { //draws the car onto html webpage
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //top glass
             contextShapes.moveTo(450,150);
             contextShapes.lineTo(550,150);
             contextShapes.lineTo(520,180);
@@ -342,21 +332,21 @@ function car() { //draws the car onto html webpage
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //top window edge1
             contextShapes.moveTo(520,187);
             contextShapes.lineTo(415,187);
             contextShapes.lineWidth = 10;
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //top window edge2
             contextShapes.moveTo(518,188);
             contextShapes.lineTo(575,130);
             contextShapes.lineWidth = 10;
             contextShapes.closePath();
             contextShapes.stroke();
 
-            contextShapes.beginPath();
+            contextShapes.beginPath(); //top window edge3
             contextShapes.moveTo(580,128);
             contextShapes.lineTo(575,128);
             contextShapes.lineWidth = 10;
