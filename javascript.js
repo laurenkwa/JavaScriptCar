@@ -502,12 +502,6 @@ function car() { //draws the car onto html webpage
             contextShapes.fill();
             contextShapes.stroke();
     
-            contextShapes.beginPath();
-            contextShapes.fillStyle = "black";
-            contextShapes.arc(290,450,10, 6.3, Math.PI);
-            contextShapes.fill();
-    
-            
 
             timer = setInterval(draw, 3000); //sets interval of smoke upon loading of webpage
     
