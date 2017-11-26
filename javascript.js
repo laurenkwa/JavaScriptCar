@@ -359,6 +359,145 @@ function car() {
             contextShapes.closePath();
             contextShapes.stroke();
             
+            //wheels
+            contextShapes.lineWidth = 1;
+            contextShapes.beginPath();
+            contextShapes.moveTo(714,248);
+            contextShapes.bezierCurveTo(733,248,749,268,749,293);
+            contextShapes.bezierCurveTo(749,318,733,338,714,338);
+            contextShapes.bezierCurveTo(695,338,679,318,679,293);
+            contextShapes.bezierCurveTo(679,268,695,248,714,248);
+            contextShapes.closePath();
+            contextShapes.stroke();
+            contextShapes.shadowOffsetX = 15;
+            contextShapes.shadowOffsetY = 15;
+            contextShapes.shadowBlur = 0;
+            contextShapes.shadowColor = "rgba(0,0,0,0)";
+            contextShapes.fillStyle = "rgba(0,0,0,1)";
+            contextShapes.fill();
+
+            contextShapes.lineWidth = 1;
+            contextShapes.beginPath();
+            contextShapes.moveTo(625,337);
+            contextShapes.bezierCurveTo(644,337,660,357,660,382);
+            contextShapes.bezierCurveTo(660,407,644,427,625,427);
+            contextShapes.bezierCurveTo(606,427,590,407,590,382);
+            contextShapes.bezierCurveTo(590,357,606,337,625,337);
+            contextShapes.closePath();
+            contextShapes.stroke();
+            contextShapes.shadowOffsetX = 15;
+            contextShapes.shadowOffsetY = 15;
+            contextShapes.shadowBlur = 0;
+            contextShapes.shadowColor = "rgba(0,0,0,0)";
+            contextShapes.fillStyle = "rgba(0,0,0,1)";
+            contextShapes.fill();
+
+            contextShapes.lineWidth = 1;
+            contextShapes.beginPath();
+            contextShapes.moveTo(713,272);
+            contextShapes.bezierCurveTo(722,272,730,282,730,295);
+            contextShapes.bezierCurveTo(730,307,722,317,713,317);
+            contextShapes.bezierCurveTo(703,317,695,307,695,295);
+            contextShapes.bezierCurveTo(695,282,703,272,713,272);
+            contextShapes.closePath();
+            contextShapes.stroke();
+            contextShapes.shadowOffsetX = 15;
+            contextShapes.shadowOffsetY = 15;
+            contextShapes.shadowBlur = 0;
+            contextShapes.shadowColor = "rgba(0,0,0,0)";
+            contextShapes.fillStyle = "rgba(205,205,205,1)";
+            contextShapes.fill();
+
+            contextShapes.lineWidth = 1;
+            contextShapes.beginPath();
+            contextShapes.moveTo(626,359);
+            contextShapes.bezierCurveTo(635,359,643,369,643,382);
+            contextShapes.bezierCurveTo(643,394,635,404,626,404);
+            contextShapes.bezierCurveTo(616,404,608,394,608,382);
+            contextShapes.bezierCurveTo(608,369,616,359,626,359);
+            contextShapes.closePath();
+            contextShapes.stroke();
+            contextShapes.shadowOffsetX = 15;
+            contextShapes.shadowOffsetY = 15;
+            contextShapes.shadowBlur = 0;
+            contextShapes.shadowColor = "rgba(0,0,0,0)";
+            contextShapes.fillStyle = "rgba(205,205,205,1)";
+            contextShapes.fill();
+
+            contextShapes.lineWidth = 1;
+            contextShapes.beginPath();
+            contextShapes.moveTo(711,272);
+            contextShapes.lineTo(710,316);
+            contextShapes.stroke();
+
+            contextShapes.lineWidth = 1;
+            contextShapes.beginPath();
+            contextShapes.moveTo(696,293);
+            contextShapes.lineTo(733,294);
+            contextShapes.stroke();
+
+            contextShapes.lineWidth = 1;
+            contextShapes.beginPath();
+            contextShapes.moveTo(726,275);
+            contextShapes.lineTo(696,311);
+            contextShapes.stroke();
+
+            contextShapes.lineWidth = 1;
+            contextShapes.beginPath();
+            contextShapes.moveTo(695,274);
+            contextShapes.lineTo(731,320);
+            contextShapes.stroke();
+
+            contextShapes.lineWidth = 1;
+            contextShapes.beginPath();
+            contextShapes.moveTo(623,358);
+            contextShapes.lineTo(625,417);
+            contextShapes.stroke();
+
+            contextShapes.lineWidth = 1;
+            contextShapes.beginPath();
+            contextShapes.moveTo(598,385);
+            contextShapes.lineTo(656,386);
+            contextShapes.stroke();
+
+            contextShapes.lineWidth = 1;
+            contextShapes.beginPath();
+            contextShapes.moveTo(601,357);
+            contextShapes.lineTo(644,410);
+            contextShapes.stroke();
+
+            contextShapes.lineWidth = 1;
+            contextShapes.beginPath();
+            contextShapes.moveTo(639,361);
+            contextShapes.lineTo(608,406);
+            contextShapes.stroke();
+        
+            contextShapes.lineWidth = 1;
+            contextShapes.beginPath();
+            contextShapes.moveTo(620,426);
+            contextShapes.lineTo(596,426);
+            contextShapes.lineTo(598,425);
+            contextShapes.lineTo(598,425);
+            contextShapes.lineTo(598,425);
+            contextShapes.bezierCurveTo(591,425,584,422,579,416);
+            contextShapes.lineTo(595,407);
+            contextShapes.fillStyle = "rgba(0,0,0,1)";
+            contextShapes.fill();
+            contextShapes.stroke();
+
+            contextShapes.lineWidth = 1;
+            contextShapes.beginPath();
+            contextShapes.moveTo(712,337);
+            contextShapes.lineTo(688,337);
+            contextShapes.lineTo(690,336);
+            contextShapes.lineTo(690,336);
+            contextShapes.lineTo(690,336);
+            contextShapes.bezierCurveTo(683,336,676,333,670,327);
+            contextShapes.lineTo(684,318);
+            contextShapes.fillStyle = "rgba(0,0,0,1)";
+            contextShapes.fill();
+            contextShapes.stroke();
+
             timer = setInterval(draw, 3000);
             draw();
            
